@@ -1,0 +1,23 @@
+﻿<Page x:Class="Frontend_aplikacja_o_jedzeniu.Stronaschowel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Frontend_aplikacja_o_jedzeniu"
+      mc:Ignorable="d" 
+      d:DesignHeight="485" d:DesignWidth="709"
+      Title="Stronaschowel">
+
+    <Grid>
+        <Button Content="Kalendarz" HorizontalAlignment="Left" Margin="70,55,0,0" VerticalAlignment="Top" Height="55" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="474,32,0,0" VerticalAlignment="Top" Width="100" Source="/icons8_calendar_32px.png"/>
+        <Button Content="Łączna ilość&#xD;&#xA;kalori" HorizontalAlignment="Left" Margin="70,170,0,0" VerticalAlignment="Top" Height="54" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="474,147,0,0" VerticalAlignment="Top" Width="100" Source="/icons8_calories_32px.png"/>
+        <Button Content="Zmiany BMI" HorizontalAlignment="Left" Height="60" Margin="70,270,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="474,252,0,0" VerticalAlignment="Top" Width="100" Source="/icons8_heart_32px.png"/>
+        <Button Content="Ulubione przepisy&#xD;&#xA;" HorizontalAlignment="Left" Height="60" Margin="70,385,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="474,357,0,0" VerticalAlignment="Top" Width="100" Source="/icons8_smiling_face_with_heart_32px.png"/>
+
+    </Grid>
+</Page>
+

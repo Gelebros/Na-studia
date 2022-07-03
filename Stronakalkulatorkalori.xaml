@@ -1,0 +1,21 @@
+﻿<Page x:Class="Frontend_aplikacja_o_jedzeniu.Stronakalkulatorkalori"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Frontend_aplikacja_o_jedzeniu"
+      mc:Ignorable="d" 
+      d:DesignHeight="485" d:DesignWidth="709"
+      Title="Stronakalkulatorkalori">
+
+    <Grid>
+        <Label Content="" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" Height="65" Width="421" BorderBrush="#FFEEEBEB" Background="#FFF0EBEB"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1D0505" Height="32" Width="84" Background="#FFF4F4F4"><Run Language="pl-pl" Text="Wynik"/></TextBlock>
+        <Button Content="Dodaj pojedyńczy &#xD;&#xA;produkt z listy" HorizontalAlignment="Left" Margin="30,270,0,0" VerticalAlignment="Top" Height="60" Width="130"/>
+        <Button Content="Dodaj napój" HorizontalAlignment="Left" Margin="180,270,0,0" VerticalAlignment="Top" Height="60" Width="130"/>
+        <Button Content="Dodaj pełen&#xD;&#xA;posiłek" HorizontalAlignment="Left" Margin="330,270,0,0" VerticalAlignment="Top" Height="60" Width="130"/>
+        <Button Content="Sumuj" HorizontalAlignment="Left" Margin="480,270,0,0" VerticalAlignment="Top" Height="60" Width="130"/>
+        <Button Content="Zapisz" HorizontalAlignment="Left" Margin="462,395,0,0" VerticalAlignment="Top" Height="80" Width="166"/>
+
+    </Grid>
+</Page>
